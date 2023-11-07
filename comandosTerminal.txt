@@ -1,0 +1,12 @@
+npm install -g npm  //ao instar o node.js
+
+npx create-react-app teste //novo projeto react
+cd teste
+npm start
+
+npm i //instalar dependencias 
+
+
+
+
+
