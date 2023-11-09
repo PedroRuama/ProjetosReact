@@ -1,0 +1,33 @@
+
+.back{
+  background-color: rgb(219, 82, 64);
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 10vh;
+  align-items: center ;
+  flex-direction: column;
+  
+  
+}
+
+.box{
+  display: flex;
+  background-color: aliceblue;
+  width: 15rem;
+  height: 20rem;
+  flex-direction: column;
+  border-radius: 20px;
+  
+}
+.logo{
+  height: 7vh;
+  
+}
+
+p{
+  font-weight: bold;
+  color: white;
+}
