@@ -1,0 +1,12 @@
+#back{
+    background-color:  hsl(240, 100%, 5%);
+    width: 27.5%;
+    padding: 10px;
+}
+#h1Box{
+    color: hsl(36, 82%, 53%);
+}
+
+h3{
+    color: aliceblue;
+}

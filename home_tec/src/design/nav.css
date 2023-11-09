@@ -1,0 +1,44 @@
+#nav{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+#logo{
+    width: 7%;
+    object-fit: contain;
+}
+
+#nav-itens{
+    
+    display: flex;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: start;
+    margin: none;
+    padding: none;
+
+}
+
+#itens{
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+}
+#itens li{
+    padding: 5%;
+    font-size: 15px;
+    
+}
+a:hover{
+    color: orangered;
+}
