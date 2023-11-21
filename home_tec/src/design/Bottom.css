@@ -1,6 +1,5 @@
 #conteudo_{
     display: flex;
-    background-color: rgb(255, 81, 0);
     height:8rem; 
     padding-top:4%;
     justify-content: space-between;
@@ -26,9 +25,11 @@
 .titleN{
     font-size: 18px;
     padding-left: 10%;
-    
-    
 }
+.titleN:hover{
+    color: hsl(36, 82%, 53%);
+}
+
 .desc{
     padding-left: 10%;
     

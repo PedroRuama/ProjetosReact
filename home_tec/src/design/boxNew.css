@@ -1,6 +1,7 @@
 #back{
     background-color:  hsl(240, 100%, 5%);
     width: 28%;
+    height: 100%;
     padding: 12px;
     border-radius: 10px;
 }
@@ -11,14 +12,19 @@
     display: flex;
 }
 hr{
-    background-color: solid saddlebrown;
 }
 h3{
     color: aliceblue;
+    transition: 0.3s;
+}
+h3:hover{
+    color: hsl(36, 82%, 53%);
+    cursor: pointer;
 }
 .solid {
     border-top: 3px solid #bbb;
 }
-p{
-    font-size: 13px;
+.p_boxnew{
+    font-size: 18px;
+    padding-bottom: 12%;
 }

@@ -47,7 +47,8 @@ h1{
 p{
     color: hsl(236, 13%, 42%);
     margin: 0px;
-    line-height: 150%
+    line-height: 150%;
+    font-size: 14px;
 }
 
 #btn{
