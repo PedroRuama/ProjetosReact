@@ -12,7 +12,7 @@ function info() {
       <img src={foto} alt="foto" id='foto'/>
       <div id='txts'>
         <div id='titulo'>
-          <h1>The Bright Future of Web 30?</h1>
+          <h1>The Bright Future of Web 3.0?</h1>
 
         </div>
         <div id='paragrafo'> 
