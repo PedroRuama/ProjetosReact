@@ -1,0 +1,24 @@
+#back{
+    background-color:  hsl(240, 100%, 5%);
+    width: 28%;
+    padding: 12px;
+    border-radius: 10px;
+}
+.h1Box{
+    font-weight: bold;
+    font-size: 25px;
+    color: hsl(36, 82%, 53%);
+    display: flex;
+}
+hr{
+    background-color: solid saddlebrown;
+}
+h3{
+    color: aliceblue;
+}
+.solid {
+    border-top: 3px solid #bbb;
+}
+p{
+    font-size: 13px;
+}

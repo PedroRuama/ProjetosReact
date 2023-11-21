@@ -1,0 +1,38 @@
+#conteudo_{
+    display: flex;
+    background-color: rgb(255, 81, 0);
+    height:8rem; 
+    padding-top:4%;
+    justify-content: space-between;
+}
+.outrasNews{
+    display: flex;
+    width: 32%;
+    
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.number{
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 10%;
+    margin: 0px;
+    color: hsl(236, 13%, 42%);
+}
+.titleN{
+    font-size: 18px;
+    padding-left: 10%;
+    
+    
+}
+.desc{
+    padding-left: 10%;
+    
+}
+.img{
+    height: 100%;
+}

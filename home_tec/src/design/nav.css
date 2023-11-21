@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 3%;
+   
 }
 
 #logo{
@@ -11,21 +12,26 @@
 }
 
 #nav-itens{
-    
+  
     display: flex;
     width: 50%;
     height: auto;
-    overflow: hidden;
+
     align-items: center;
-    justify-content: start;
+    justify-content: end;
     margin: none;
     padding: none;
 
 }
 
 #itens{
+    
     list-style-type: none;
     display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: end;
+    
     
     
 }
@@ -33,9 +39,10 @@ a{
     text-decoration: none;
     color: black;
     transition: 500ms;
+    
 }
 #itens li{
-    padding: 5%;
+    padding-left: 5%;
     font-size: 15px;
     
 }
