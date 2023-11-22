@@ -8,11 +8,11 @@ function App() {
     return(
         <div id='corpo'> 
             <NavBar />
-            <div id='conteudo'>
+            {/* <div id='conteudo'>
                 <Info />
                 <BoxNew />
             </div>
-            <Bottom />
+            <Bottom /> */}
         </div>
     );
 }

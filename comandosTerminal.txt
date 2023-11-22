@@ -9,4 +9,11 @@ npm i //instalar dependencias
 
 
 
+npm init vite teste  -- -tamplate react //novo projeto react + vite, "melhor velocidade"
+cd teste
+npm install
+npm run dev
+
+
+
 
