@@ -1,4 +1,4 @@
-import '../design/boxNew.css'
+import './boxNew.css'
 
 function BoxNew() {
     return(

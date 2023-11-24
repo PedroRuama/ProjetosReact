@@ -1,7 +1,7 @@
-import retroPc from "../design/imgs/image-retro-pcs.jpg"
-import "../design/Bottom.css"
-import laptop from "../design/imgs/image-top-laptops.jpg"
-import games from "../design/imgs/image-gaming-growth.jpg"
+import retroPc from "./imgs/image-retro-pcs.jpg"
+import "./Bottom.css"
+import laptop from "./imgs/image-top-laptops.jpg"
+import games from "./imgs/image-gaming-growth.jpg"
 function bottom() {
     return(
         <div id="conteudo_">

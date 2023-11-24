@@ -16,15 +16,22 @@
     display: none;
    
 }
+#Xmenu{
+    object-fit: contain;  
+    display: none;
+}
 
 #anteLateral{
-    /* position: absolute; */
+    position: absolute;
+    top: 0; 
 }
 
 #lateral_div{
-    width: 100%;
-    
+    width: 50vw;
+    right: 0;
+    z-index: 99;
     height: 100vh;
+    margin: 0;
     background-color: blue;
 }
 
@@ -76,11 +83,23 @@ a:hover{
         display: none;
     }
     #logo{
-        width: 12.5%;
+        width: 15%;
     }
     #menu{
         display: none;
         height: 100%;
         width: 21%;
     }
+    #Xmenu_div{
+        display: flex;
+        justify-content: end;
+    
+    }
+    #Xmenu{
+        display: flex;
+        height: 100%;
+        width: 21%;
+        padding: 10%;
+    }
+
   }

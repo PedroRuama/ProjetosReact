@@ -1,6 +1,6 @@
 
-import '../design/InfoMain.css';
-import foto from '../design/imgs/image-web-3-desktop.jpg'
+import './InfoMain.css';
+import foto from './imgs/image-web-3-desktop.jpg'
 import './BoxNew'; // id conter
 
 

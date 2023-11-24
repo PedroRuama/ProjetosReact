@@ -1,4 +1,4 @@
-import './design/App.css';
+import './App.css';
 import NavBar from './components/NavBar';
 import Info from './components/InfoMain';
 import BoxNew from './components/BoxNew';
