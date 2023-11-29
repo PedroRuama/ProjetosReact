@@ -12,7 +12,7 @@ function App() {
                 <Info />
                 <BoxNew />
             </div>
-            {/* <Bottom /> */}
+            <Bottom />
         </div> 
     );
 }

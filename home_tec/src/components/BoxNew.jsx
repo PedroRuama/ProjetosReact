@@ -10,7 +10,7 @@ function BoxNew() {
             <h3>Hydrogen V Eletric Cars</h3>
             <p className='p_boxnew'>Will hydrogen-fueled cars ever catch up to Evs?</p>
            
-            <hr className='solid'/>
+            <hr className='solid    '/>
         
             <h3>The Downsides of AO Artistry</h3>
             <p className='p_boxnew'>What are the possible adverse affects of on-demand AI image generation?</p>

@@ -95,7 +95,7 @@ p {
     #titulo {
         width: 100%;
         padding-bottom: 5%;
-        font-size: 200%;
+        font-size: 150%;
 
     }
 
@@ -105,13 +105,13 @@ p {
     }
 
     p {
-        font-size: 200%;
+        font-size: 150%;
     }
 
 
     #btn {
         margin-top: 10%;
-        font-size: 200%;
+        font-size: 120%;
 
     }
 }

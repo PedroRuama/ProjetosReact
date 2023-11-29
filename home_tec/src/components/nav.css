@@ -105,13 +105,13 @@ a:hover {
 
     #lateral_div {
         width: 0vw;
-        height: 100vh;
+        height: 105rem;
         transition: 0.5s;
         background-color: hsl(36, 100%, 99%);
 
     }
 
-    #sombra {
+    #sombra {   
         width: 100vw;
         height: 100vh;
         display: none;
@@ -120,6 +120,7 @@ a:hover {
         position: absolute;
         top: 0;
         left: 0;
+        bottom: 0;
         opacity: 80%;
 
     }
