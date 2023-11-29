@@ -1,32 +1,31 @@
-#nav{
+#nav {
     display: flex;
     justify-content: space-between;
     padding-bottom: 3%;
-    
-    
+
+
 }
 
-#logo{
+#logo {
     width: 7%;
     object-fit: contain;
 }
 
-#menu{
-    object-fit: contain;  
+#menu {
+    object-fit: contain;
     display: none;
-   
+
 }
-#Xmenu{
-    object-fit: contain;  
+
+#Xmenu {
+    object-fit: contain;
     display: none;
 }
 
-#nav-itens{
-    
+#nav-itens {
     display: flex;
     width: 50%;
     height: auto;
-
     align-items: center;
     justify-content: end;
     margin: none;
@@ -34,102 +33,110 @@
 
 }
 
-#itens{
+#itens {
     list-style-type: none;
     display: flex;
     width: 100%;
     padding: 0;
-    justify-content: end;    
-    
+    justify-content: end;
+
 }
 
+#mob_itens {
+    display: none;
 
-a{
+}
+
+a {
     text-decoration: none;
     color: black;
     transition: 500ms;
-    
+
 }
-#itens li{
+
+#itens li {
     padding-left: 5%;
     font-size: 15px;
-    
+
 }
-a:hover{
+
+a:hover {
     color: orangered;
 }
 
 
 @media only screen and (max-width: 768px) {
+
     /* For mobile phones: */
-    #nav{
-      
-    }
-    #itens{
+    #itens {
         display: none;
     }
-    #logo{
+
+    #logo {
         width: 15%;
     }
-    #menu{
+
+    #menu {
         display: flex;
         height: 100%;
         width: 21%;
     }
-    #Xmenu_div{
+
+    #Xmenu_div {
         display: flex;
         justify-content: end;
-        
-    
+
+
     }
-    #Xmenu{
+
+    #Xmenu {
         display: flex;
         height: 100%;
         width: 15%;
         padding: 10%;
-        
+
     }
 
-    #anteLateral{
+    #anteLateral {
         position: absolute;
-        top: 0; 
+        top: 0;
         right: 0;
     }
-    
-    #lateral_div{
+
+    #lateral_div {
         width: 0vw;
-        display: block;
         height: 100vh;
         transition: 0.5s;
         background-color: hsl(36, 100%, 99%);
-        
+
     }
-    #sombra{
+
+    #sombra {
         width: 100vw;
         height: 100vh;
-        display: block;
+        display: none;
         transition: 0.5s;
         background-color: black;
         position: absolute;
         top: 0;
         left: 0;
         opacity: 80%;
-    
+
     }
-    
-    #mob_itens{
+
+    #mob_itens {
         list-style-type: none;
-        display: flex;
+        display: none;
         flex-direction: column;
         width: 100%;
         padding: 10%;
-        justify-content: end;   
+        justify-content: end;
     }
 
-    li{
+    li {
         font-size: 20px;
         padding: 3%;
     }
-    
 
-  }
+
+}
