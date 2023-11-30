@@ -1,11 +1,14 @@
 import './boxNew.css'
+import './InfoMain'
 
 function BoxNew() {
+
     return(
         <div id='back'>
             <div className='h1Box'>
-                Novo !<div id='conter'>  ! </div>!
+                Novo !<div id='conter'> ! </div>!
             </div>
+            
             
             <h3>Hydrogen V Eletric Cars</h3>
             <p className='p_boxnew'>Will hydrogen-fueled cars ever catch up to Evs?</p>

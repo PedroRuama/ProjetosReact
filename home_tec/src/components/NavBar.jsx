@@ -2,32 +2,32 @@ import './nav.css'
 import logo from './imgs/logo.svg'
 import menu from './imgs/icon-menu.svg'
 import Xmenu from './imgs/icon-menu-close.svg'
-import { useState } from 'react';
+import { useState } from 'react'; // gerenciar o estado de algum valor (getter e setter) 
 
 
 
 function NavBar() {
-    const [isActive, setIsActive] = useState(false);
-
+    const [Ativado, setAtivado] = useState(false); //vaor inicial = falso
+    
     return (
         
         <div id='nav'>
             <img src={logo} alt="logo" id='logo' />
-
-
-            <div id='sombra'></div>
+            <div id='sombra'style={{display: Ativado ? "flex" : "none"}}></div>
             <div id="nav-itens">
-            {/* onClick={() => setIsActive(!isActive)} style={{display: isActive ? "flex" : "none"}}  */}
-            {/* onClick={() => setIsActive(!isActive)}  */}
+           
+                
                 {/* mobile menu  */}
-                <img src={menu} alt="menu" id='menu' onClick={mobMenu}/>
+                <img src={menu} alt="menu" id='menu' onClick={() => setAtivado(!Ativado)} />
+
+                
                 <div id='anteLateral'>
-                    <div id='lateral_div'>
+                    <div id='lateral_div' style={{width: Ativado ? "60vw" : "0vw"}}>
                         <div id='Xmenu_div'>
-                            <img src={Xmenu} alt="Xmenu" id='Xmenu' onClick={mobMenu}/>
+                            <img src={Xmenu} alt="Xmenu" id='Xmenu' onClick={() => setAtivado(!Ativado)} style={{display: Ativado ? "flex" : "none"}}/>
                         </div>
                         <br />
-                        <ul id='mob_itens'>
+                        <ul id='mob_itens' style={{display: Ativado ? "flex" : "none"}}>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">New</a></li>
                             <li><a href="#">Popular</a></li>
@@ -51,29 +51,6 @@ function NavBar() {
 }
 
 export default NavBar;
-var i = 1;
-function mobMenu() {
-    var sombra = document.getElementById("sombra")
-    var lateral = document.getElementById("lateral_div")
-    var itensMenu = document.getElementById("mob_itens")
-    var menu = document.getElementById("menu")
-    var X = document.getElementById("Xmenu")
-    i = i * (-1)
 
-    if (i < 0) {
-        menu.style = "display= none";
-        sombra.style = "display: block;"
-        itensMenu.style = "display: block;"
-        lateral.style = "width: 60vw"
-
-    } else {
-        menu.style = "display= flex";   
-        sombra.style = "display: none;"
-        itensMenu.style = "display: none;"
-        lateral.style = "width: 0vw"
-    }
-
-
-}
 
 
