@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 // import App from './App.jsx'  *retirar*
-import Calculadora from './main/calculadora' // *adicionar*
+import Calculadora from './main/Calculadora' // *adicionar*
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
