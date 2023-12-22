@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import blogFetch from '../axios/config';
 import { useState, useEffect } from 'react'    
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const home = () => {
         // const resposta = await axios.get(
         //   'https://jsonplaceholder.typicode.com/posts/'
         // )
-      const resposta = await blogFetch.get('/posts/');
+      const resposta = await blogFetch.get('/posts');
        console.log(resposta);
       const data = resposta.data
       
@@ -32,7 +32,7 @@ const home = () => {
   return (
     <div className='home'> 
       <h1>Últimos posts</h1>
-      {posts.length === 0 ? (<p>não foi carai</p>) : ( 
+      {posts.length === 0 ? (<p>Carregando...</p>) : ( 
         posts.map((post) => (
           <div className="post" key={post.id}>
             <h2>{post.title}</h2>

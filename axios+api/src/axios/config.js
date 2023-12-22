@@ -1,7 +1,10 @@
-import axios from "axios";
+import axios from "axios"
 
-const blogFetch = axios.get({
-    baseURL: "https://jsonplaceholder.typicode.com",
+const blogFetch = axios.create({
+    baseURL: "https://jsonplaceholder.typicode.com/",
+    headers: {"Content-Type": "aplication/json",
+        // algumacoisa: "teste"
+    }
 });
 
 export default blogFetch;
